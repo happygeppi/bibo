@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #222;
+  display: grid;
+  place-content: center;
+}
+
+#container {
+  position: relative;
+  height: 90vh;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 5fr;
+}
+
+h1 {
+  display: grid;
+  place-content: center;
+  color: #bbb;
+  font-size: 3rem;
+  width: fit-content;
+}
+
+nav {
+  display: grid;
+  place-content: center;
+  grid-auto-flow: row;
+  gap: 2vh;
+}
+
+nav a {
+  text-align: center;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 2rem;
+}
